@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Movie List</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <!--  -->
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <!-- Icon -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+  <section>
+    <div class="heading">Movie List</div>
+
+    <div class="movie-heading">
+      <div class="movie-text">Movies</div>
+      <div class="search">
+        <input type="text" placeholder="Search..." id="search" autocomplete="off">
+        <i class='bx bx-search' id="btn-search"></i>
+      </div>
+    </div>
+
+    <div class="container" id="movie-list">
+      <!-- <div class="card">
+        <img src="src/img-dumm.png">
+        <div class="text">
+          <h2>Maze Runner : The Death Cure</h2>
+          <h3>(2018)</h3>
+        </div>
+        <button class="btn">Details</button>
+      </div> -->
+
+
+    </div>
+
+    <!-- MODAL -->
+    <div class="container">
+      <div class="modal">
+        
+      </div>
+    </div>
+
+    <div class="pagination">
+      <i class='bx bx-chevron-left kiri'></i>
+      <div class="page">
+        1
+      </div>
+      <i class='bx bx-chevron-right kanan'></i>
+    </div>
+
+
+  </section>
+
+
+  <!-- AXIOS -->
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <!-- Script Main -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
