@@ -1,4 +1,4 @@
-## This repo is originally belonged to Simad9 : https://github.com/Simad9/Movie-List  
+## This repo is originally belonged to Simad9: https://github.com/Simad9/Movie-List  
 
 # ITC::Front-End Tugas-2 ~ Movie List
 
